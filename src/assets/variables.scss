@@ -1,0 +1,45 @@
+$color-background: #181F34;
+
+$color-soft-background: #282828;
+$color-soft-background-hover: #444444;
+
+$color-low-contrast: #121A32;
+$color-contrast: #1B233B;
+$color-high-contrast: #303b5e;
+
+$color-font: #fff;
+$color-font-soft: #808080;
+
+$second-color-high-contrast: #e6c229;
+$second-color-contrast: #f17105;
+$second-color-low-contrast: #d11149;
+
+@import "~v-calendar-scheduler/scss/variables";
+$v-cal-day-month-height: 115px;
+$v-cal-body-bg: transparent;
+$v-cal-font-color: $color-font;
+$v-cal-content-border-color: $second-color-high-contrast;
+$v-cal-days-head-bg: transparentize($color: $color-font, $amount: .5);
+$v-cal-days-head-border-color: $second-color-high-contrast;
+$v-cal-days-head-color: $color-font;
+$v-cal-day-bg: transparentize($color: $color-font, $amount: .8);
+$v-cal-day-border-color: $second-color-high-contrast;
+$v-cal-day-diff-month-color: $color-font-soft;
+$v-cal-day-today-bg: transparentize($second-color-high-contrast, .3);
+$v-cal-day-disabled-bg: transparentize($color: $color-font, $amount: .9);
+$v-cal-day-disabled-color: $color-font-soft;
+$v-cal-day-month-hover-bg: transparentize($color: $color-font, $amount: .5);
+$v-cal-time-block-hover-bg: transparentize($color: $color-font, $amount: .5);
+$v-cal-times-bg: transparentize($color: $color-font, $amount: .5);
+$v-cal-times-border-color: transparentize($color: $color-font, $amount: .8);
+$v-cal-event-bg: $color-low-contrast;
+$v-cal-event-color: $color-font;
+$v-cal-event-border-radius: 2px;
+$v-cal-time-marker-color: $color-high-contrast;
+$v-cal-button-bg: transparentize($color: $color-font, $amount: .5);
+$v-cal-button-active-bg: $color-contrast;
+$v-cal-button-border-color: $color-font;
+$v-cal-button-active-color: $color-font;
+$v-cal-button-hover-bg: $color-contrast;
+$v-cal-button-hover-color: $color-font;
+@import "~v-calendar-scheduler/scss/main";
